@@ -1,0 +1,125 @@
+html{
+    font-family: Roboto, sans-serif;
+}
+body{
+    background-color: #dad0d8;
+    margin: 3rem 15rem 0rem 15rem;
+}
+.cv{
+    background-color: white;
+    box-shadow: #8b7ad4;
+    padding: 3rem;
+    min-height: 45rem;
+    display: flex;
+    /* flex-direction: column; */
+}
+section img{
+    height: 6rem;
+    width: 5rem;
+    border-radius: 0.3rem;
+}
+.info{
+    display: flex;
+}
+ .info__per {
+     margin-left: 1rem;
+ }
+*{
+    color: #333333;
+}
+
+h1{
+    color:#333333;
+    margin-bottom: 0.25rem;
+}
+h4{
+    margin: 0;
+    color:#78767c
+}
+h2{
+    color:#333333;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+h5{
+    color:#12081a;
+    margin: 0;
+}
+
+a {
+    color:#4da1f7;
+    font-weight: 550;
+    text-decoration: none;
+}
+a:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+li{
+    color:#110936;
+     font-weight: 550;
+}
+.contact__type{
+    margin: 0.25rem;
+}
+
+.skills{
+  margin-left: 0rem;  
+}
+.skills h4{
+    margin: 2rem;
+    margin-left: 2rem;
+}
+.skills h2 {
+    margin: 2rem;
+    margin-right: 2rem;
+    color:#88858d
+}
+.year h5{
+    color: #88858d;
+}
+
+/* .description{
+    max-width: 800px;
+} */
+/* .contact{
+   display: inline-block;
+} */
+.rec{
+    display: flex;
+}
+#rectangle1 {
+    margin-left: 2rem;
+    margin-top: 0rem;
+    width: 6rem;
+    height: 0.3rem;
+    background: #4da1f7;
+    border-radius: 3rem;
+}
+#rectangle2 {
+    margin-top: 0rem;
+    width: 3rem;
+    height: 0.3rem;
+    background: #88858d;
+    border-radius: 3rem;
+}
+
+.contacts img{
+    height: 1rem;
+    width: 1rem;
+    margin-top: 1.3rem;
+    margin-right: 0.2rem;
+}
+.details__img{
+    display: flex;
+}
+.profile__img{
+    display: flex;
+}
+.education__img{
+    display: flex;
+}
+.goal__img{
+    display: flex;
+}
