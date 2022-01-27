@@ -1,5 +1,6 @@
-html{
+*{
     font-family: Roboto, sans-serif;
+    color: #333333;
 }
 body{
     background-color: #dad0d8;
@@ -7,7 +8,7 @@ body{
 }
 .cv{
     background-color: white;
-    box-shadow: #8b7ad4;
+    box-shadow: #403d4e;
     padding: 3rem;
     min-height: 45rem;
     display: flex;
@@ -24,9 +25,6 @@ section img{
  .info__per {
      margin-left: 1rem;
  }
-*{
-    color: #333333;
-}
 
 h1{
     color:#333333;
@@ -56,14 +54,17 @@ a:hover {
     cursor: pointer;
 }
 
-li{
-    color:#110936;
-     font-weight: 550;
-}
-.contact__type{
-    margin: 0.25rem;
-}
+/* a:visited {
+    opacity: .7;
+    color:#8b7ad4;
+} */
 
+li {
+    color: #110936;
+    font-weight: 550;
+    margin: 0.5rem 0rem 0.2rem 0rem;
+    padding-left: 0;
+}
 .skills{
   margin-left: 0rem;  
 }
